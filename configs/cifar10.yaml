@@ -1,0 +1,21 @@
+num_epochs: 2046
+batch_size: 64
+learning_rate: 2e-4
+beta_1: 1e-4
+beta_T: 0.02
+save_epoch: 100
+resume_from: 
+log_dir: './runs/cifar10'
+output_dir: './outputs/cifar10'
+schedule: 'linear'
+T: 1000
+ch: 128
+ch_mult: [1, 2, 2, 2]
+num_res_blocks: 2
+attn_resolutions: [16]
+dropout: 0.1
+resamp_with_conv: true
+num_classes: 10
+num_samples: 100
+image_size: 32
+nrow: 10
